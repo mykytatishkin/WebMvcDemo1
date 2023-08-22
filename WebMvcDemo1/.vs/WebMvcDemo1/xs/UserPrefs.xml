@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{202F886C-C901-45F3-ACC7-94FA27FAE011}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebMvcDemo1/Views/Students/Index.cshtml">
+    <Files>
+      <File FileName="WebMvcDemo1/Views/Students/Create.cshtml" Line="7" Column="68" />
+      <File FileName="WebMvcDemo1/Views/Students/Index.cshtml" Line="19" Column="31" />
+      <File FileName="WebMvcDemo1/Controllers/StudentsController.cs" Line="32" Column="9" />
+      <File FileName="WebMvcDemo1/Program.cs" Line="15" Column="1" />
+      <File FileName="WebMvcDemo1/Repositories/IStudents.cs" Line="1" Column="1" />
+      <File FileName="WebMvcDemo1/Repositories/ListStudents.cs" Line="15" Column="53" />
+      <File FileName="WebMvcDemo1/Models/Student.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebMvcDemo1" expanded="True">
+            <Node name="WebMvcDemo1" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Students" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebMvcDemo1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

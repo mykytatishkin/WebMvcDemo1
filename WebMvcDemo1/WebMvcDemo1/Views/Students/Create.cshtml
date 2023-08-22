@@ -1,0 +1,14 @@
+﻿<h2>Add new Student</h2>
+<form asp-action="create" method="post">
+    <p><input type="text" name="id" placeholder="id" /></p>         <!--// id:    1-->
+    <p><input type="text" name="name" placeholder="name" /></p>     <!--// name:  mykyta-->
+    <p><input type="text" name="group" placeholder="group" /></p>   <!--// group: 123-->
+    <p><input type="text" name="rate" placeholder="rate" /></p>     <!--// rate:  10-->
+    <input type="submit" value="Add Student" class="btn btn-primary"/>
+</form>
+    <!--
+    // How to create requests:
+    // 1. by using url field in browser - always uses GET HTTP method
+    // 2. by using <a></a> in browser - always uses GET HTTP method
+    // 3. by using submit button in a form - it can use different HTTP methods depending on attribute "method"
+    -->

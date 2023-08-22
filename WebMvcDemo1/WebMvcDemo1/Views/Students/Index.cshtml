@@ -1,0 +1,23 @@
+﻿<h2>List of students</h2>
+
+<a asp-action="Create">Add new Student</a>
+
+@if(ViewBag.Students != null){
+    <table class="table table-striped">
+        <thead>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Group</th>
+            <th>Rate</th>
+        </thead>
+        @foreach (Student item in ViewBag.Students)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Group</td>
+                <td>@item.Rate</td>
+            </tr>
+        }
+    </table>
+}
