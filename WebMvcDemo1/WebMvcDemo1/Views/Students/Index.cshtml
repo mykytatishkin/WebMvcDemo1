@@ -9,6 +9,7 @@
             <th>Name</th>
             <th>Group</th>
             <th>Rate</th>
+            <th>Group ID</th>
         </thead>
         @foreach (Student item in ViewBag.Students)
         {
@@ -17,6 +18,7 @@
                 <td>@item.Name</td>
                 <td>@item.Group</td>
                 <td>@item.Rate</td>
+                <td>@item.GroupID</td>
             </tr>
         }
     </table>
