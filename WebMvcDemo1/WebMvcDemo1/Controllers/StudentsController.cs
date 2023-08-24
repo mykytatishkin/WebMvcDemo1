@@ -18,14 +18,24 @@ namespace WebMvcDemo1.Controllers
         public IActionResult Index()
         {
             List<Student> students = repository.GetStudents();
-            ViewBag.Students = students;
-            return View();
+            // 1 - ViewBad
+            // ViewBag.Students = students;
+
+            // 2 - ViewData
+            ViewData["title"] = "List of students";
+
+            // 3 - parametrized view
+            return View(students);
         }
         
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            List<Group> groups = new List<Group>();
+            groups.Add(new Group() { Id = 1, GroupName = "G1" }) ;
+            groups.Add(new Group() { Id = 2, GroupName = "G2" });
+            groups.Add(new Group() { Id = 3, GroupName = "G3" });
+            return View(groups);
         }
 
         [HttpPost]

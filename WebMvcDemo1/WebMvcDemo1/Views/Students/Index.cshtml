@@ -1,25 +1,24 @@
-﻿<h2>List of students</h2>
+﻿@model IEnumerable<Student>
+<h2>@ViewData["title"]</h2>
 
 <a asp-action="Create">Add new Student</a>
 
-@if(ViewBag.Students != null){
     <table class="table table-striped">
         <thead>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Group</th>
-            <th>Rate</th>
-            <th>Group ID</th>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Group</th>
+        <th>Rate</th>
+        <th>Group ID</th>
         </thead>
-        @foreach (Student item in ViewBag.Students)
+        @foreach(Student item in Model)
         {
-            <tr>
-                <td>@item.Id</td>
-                <td>@item.Name</td>
-                <td>@item.Group</td>
-                <td>@item.Rate</td>
-                <td>@item.GroupID</td>
-            </tr>
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name</td>
+            <td>@item.Group</td>
+            <td>@item.Rate</td>
+            <td>@item.GroupID</td>
+        </tr>
         }
     </table>
-}

@@ -1,38 +1,42 @@
 ﻿<Properties StartupConfiguration="{202F886C-C901-45F3-ACC7-94FA27FAE011}|Default">
   <MonoDevelop.Ide.ItemProperties.WebMvcDemo1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebMvcDemo1/Program.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebMvcDemo1/Views/Students/Create.cshtml">
     <Files>
-      <File FileName="WebMvcDemo1/Views/Students/Create.cshtml" />
-      <File FileName="WebMvcDemo1/Views/Students/Index.cshtml" Line="19" Column="31" />
-      <File FileName="WebMvcDemo1/Controllers/StudentsController.cs" Line="32" Column="9" />
-      <File FileName="WebMvcDemo1/Program.cs" Line="10" Column="1" />
-      <File FileName="WebMvcDemo1/Repositories/IStudents.cs" Line="1" Column="1" />
-      <File FileName="WebMvcDemo1/Repositories/ListStudents.cs" Line="15" Column="53" />
-      <File FileName="WebMvcDemo1/Models/Student.cs" Line="1" Column="1" />
+      <File FileName="WebMvcDemo1/Views/Students/Create.cshtml" Line="5" Column="72" />
+      <File FileName="WebMvcDemo1/Views/Students/Index.cshtml" Line="24" Column="13" />
+      <File FileName="WebMvcDemo1/Controllers/StudentsController.cs" Line="38" Column="31" />
+      <File FileName="WebMvcDemo1/Program.cs" />
+      <File FileName="WebMvcDemo1/Repositories/IStudents.cs" />
+      <File FileName="WebMvcDemo1/Repositories/ListStudents.cs" Line="15" Column="13" />
+      <File FileName="WebMvcDemo1/Models/Student.cs" />
+      <File FileName="WebMvcDemo1/Models/Group.cs" />
+      <File FileName="WebMvcDemo1/Views/Shared/_Layout.cshtml" Line="23" Column="95" />
+      <File FileName="WebMvcDemo1/Views/_ViewStart.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WebMvcDemo1" expanded="True">
-            <Node name="WebMvcDemo1" expanded="True">
-              <Node name="Controllers" expanded="True" />
+          <Node name="WebMvcDemo1">
+            <Node name="WebMvcDemo1">
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
               <Node name="Repositories" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Students" expanded="True" />
+              <Node name="Views">
+                <Node name="Shared" expanded="True" />
+                <Node name="Students">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
               </Node>
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

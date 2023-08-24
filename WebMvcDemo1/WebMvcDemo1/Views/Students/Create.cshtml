@@ -1,9 +1,16 @@
-﻿<h2>Add new Student</h2>
+﻿@model IEnumerable<Group>
+
+<h2>Add new Student</h2>
 <form asp-action="create" method="post">
-    <p><input type="text" name="id" placeholder="id" /></p>         <!--// id:    1-->
-    <p><input type="text" name="name" placeholder="name" /></p>     <!--// name:  mykyta-->
-    <p><input type="text" name="group" placeholder="group" /></p>   <!--// group: 123-->
-    <p><input type="text" name="rate" placeholder="rate" /></p>     <!--// rate:  10-->
+    <p><input type="text" name="id" placeholder="id" class="form-control"/></p>         <!--// id:    1-->
+    <p><input type="text" name="name" placeholder="name" class="form-control"/></p>     <!--// name:  mykyta-->
+    <p><select name="Group" class="form-control">
+        @foreach(Group item in Model)
+        {
+            <option value="@item.Id">@item.GroupName</option>
+        }
+     </select></p>   <!--// group: 123-->
+    <p><input type="text" name="rate" placeholder="rate" class="form-control"/></p>     <!--// rate:  10-->
     <input type="submit" value="Add Student" class="btn btn-primary"/>
 </form>
     <!--
